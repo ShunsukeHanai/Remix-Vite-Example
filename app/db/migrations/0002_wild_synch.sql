@@ -1,0 +1,1 @@
+ALTER TABLE users ADD `memo` text NOT NULL;
