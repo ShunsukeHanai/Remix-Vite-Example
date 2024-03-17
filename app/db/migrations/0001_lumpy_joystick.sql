@@ -1,1 +1,0 @@
-ALTER TABLE users ADD `tel` text NOT NULL;
