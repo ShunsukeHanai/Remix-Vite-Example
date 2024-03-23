@@ -1,5 +1,5 @@
 {
-  "name": "my-remix-app",
+  "name": "remix-practice-app",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -14,8 +14,9 @@
     "preview": "npm run build && wrangler pages dev ./build/client",
     "build-cf-types": "wrangler types",
     "generate": "drizzle-kit generate:sqlite",
-    "apply-local": "npx wrangler d1 migrations apply my-remix-app --local",
-    "apply-remote": "npx wrangler d1 migrations apply my-remix-app --remote"
+    "apply-local": "wrangler d1 migrations apply remix-practice-db --local",
+    "apply-remote": "wrangler d1 migrations apply remix-practice-db --remote",
+    "drop": "drizzle-kit drop"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",

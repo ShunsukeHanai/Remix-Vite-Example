@@ -1,8 +1,7 @@
-name = "my-remix-app"
+name = "remix-practice-app"
 compatibility_date = "2024-03-12"
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "my-remix-app"
-database_id = "356b510a-1017-4290-8462-1ee12f15c5a6"
-migrations_dir = "./app/db/migrations"
+database_name = "remix-practice-db"
+database_id = "384534da-4983-4c10-8eba-8f119241ccff"
