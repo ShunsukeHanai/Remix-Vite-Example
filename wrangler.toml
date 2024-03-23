@@ -1,7 +1,7 @@
-name = "remix-practice-app"
+name = "remix-memo-app"
 compatibility_date = "2024-03-12"
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "remix-practice-db"
-database_id = "384534da-4983-4c10-8eba-8f119241ccff"
+database_name = "remix-memo-db"
+database_id = "b6b6b730-f623-4be9-b9fd-6d4655cc26cb"
